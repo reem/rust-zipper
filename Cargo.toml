@@ -1,0 +1,11 @@
+[package]
+
+name = "zipper"
+version = "0.0.1"
+authors = ["Jonathan Reem <jonathan.reem@gmail.com>"]
+
+[lib]
+
+name = "zipper"
+path = "src/lib.rs"
+
