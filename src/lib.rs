@@ -32,7 +32,7 @@ where Cntx: Context<Data, Direction, Self> {
 pub trait Context<Data, Direction, Edtr>: Zipper<Direction>
 where Edtr: Editor<Data, Direction, Self> {
     /// Insert data in the hole in this context, closing it.
-    fn insert(self, Data, Direction) -> Edtr;
+    fn insert(self, Data) -> Edtr;
 
     /// Move the hole in the specified direction, shifting the rest
     /// of the data and possibly plugging the hole.
